@@ -3,6 +3,10 @@ function test(){
     var b=5;
 
     
+    console.log('a is : ' + a);
+    console.log('b is : ' + b);
+
+    [a,b]=[b,a];
 
 
     console.log("a is : "+a);
