@@ -1,3 +1,2 @@
-var myName="Ravindu";
-var myAge=24;
-console.log("Hi I'm "+myName+" and i'm "+myAge+" Years Old");
+var myName="ravindu";
+console.log(myName.slice(0,1).toUpperCase()+myName.slice(1).toLocaleLowerCase());
