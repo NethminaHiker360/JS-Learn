@@ -1,6 +1,6 @@
-function buyMilk(bottles){
+function buyMilk(cash){
     console.log("Move to shop");
-    console.log("Buy "+ bottles + " bottles Milk");
+    console.log("Buy "+ Math.floor(cash/1.5) + " bottles Milk");
 }
 
-buyMilk(6);
+buyMilk(5);
