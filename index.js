@@ -1,10 +1,9 @@
-function randomPercentage(){
-    var match= Math.floor((Math.random()*100)+1);
-    if(match>70){
-        return ( "Your Love Score is  : "+match+" , Very Good Match" )
+function leapYear(year){
+    if((year%4==0 && year%100!=0)||year%400==0){
+        return "leapYear";
     }else{
-        return 'Your Love Score is  : ' + match;
+        return "Not LeapYear";
     }
 }
 
-console.log( randomPercentage());
+console.log(leapYear(2000));
