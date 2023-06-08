@@ -1,11 +1,15 @@
-var list=["saman","jayapala","maduka","nethu"];
-
-function chekcMember(name){
-    if(list.includes(name)){
-        console.log("Hello! "+name+", Welcome!");
-    }else{
-        console.log("Hi! "+name+", Sorry may be Next Time");
+function fizBuzz(){
+    for(var i = 1; i <= 100; i++){
+        if(i%3==0 && i%5==0){
+            console.log(i+" : FizzBuzz");
+        }else if(i%3==0){
+            console.log(i+" : Fizz");
+        }else if(i%5==0){
+            console.log(i+" : Buzz");
+        }else{
+            console.log(i);
+        }
     }
 }
 
-chekcMember("nethu");
+fizBuzz();
