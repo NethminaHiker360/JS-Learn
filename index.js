@@ -1,5 +1,5 @@
-function bmiCal(weight,height){
-    return weight/((height)**2);
+function randomPercentage(){
+    return Math.floor((Math.random()*100)+1);
 }
 
-console.log(bmiCal(50,1.25))
+console.log( randomPercentage());
