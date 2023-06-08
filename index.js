@@ -1,2 +1,6 @@
-var myName="ravindu";
-console.log(myName.slice(0,1).toUpperCase()+myName.slice(1).toLocaleLowerCase());
+function buyMilk(bottles){
+    console.log("Move to shop");
+    console.log("Buy "+ bottles + " bottles Milk");
+}
+
+buyMilk(6);
