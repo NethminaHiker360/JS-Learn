@@ -1,9 +1,11 @@
-function leapYear(year){
-    if((year%4==0 && year%100!=0)||year%400==0){
-        return "leapYear";
+var list=["saman","jayapala","maduka","nethu"];
+
+function chekcMember(name){
+    if(list.includes(name)){
+        console.log("Hello! "+name+", Welcome!");
     }else{
-        return "Not LeapYear";
+        console.log("Hi! "+name+", Sorry may be Next Time");
     }
 }
 
-console.log(leapYear(2000));
+chekcMember("nethu");
